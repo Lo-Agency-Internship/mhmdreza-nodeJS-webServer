@@ -12,7 +12,7 @@ git clone https://github.com/Lo-Agency-Internship/mhmdreza-nodeJS-webServer.git
 ```
 Now open the folder named mhmdreza-nodeJS-webserver
 
-Copy all files and paste where U want to run Ur project (rout location)
+Copy all files and paste where U want to run Ur project (route location)
 
 Open Ur bash or terminal and write this command : 
 
