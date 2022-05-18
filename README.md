@@ -1,4 +1,4 @@
-# NodeJS SebServer
+# NodeJS WebServer
 
 Simple WebServer that U can use to displey Ur project :)
 Notice : you will not need any libraries and dependencies 
