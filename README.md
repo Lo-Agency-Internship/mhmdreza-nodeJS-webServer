@@ -1,4 +1,4 @@
-# NodeJS WebServer
+# NodeJS SebServer
 
 Simple WebServer that U can use to displey Ur project :)
 Notice : you will not need any libraries and dependencies 
@@ -12,7 +12,7 @@ git clone https://github.com/Lo-Agency-Internship/mhmdreza-nodeJS-webServer.git
 ```
 Now open the folder named mhmdreza-nodeJS-webserver
 
-Copy all files and paste where U want to run Ur project (route location)
+Copy all files and paste where U want to run Ur project (rout location)
 
 Open Ur bash or terminal and write this command : 
 

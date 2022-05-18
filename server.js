@@ -11,7 +11,7 @@ http.createServer(function (req, res)
 
 
     if (name === "./") {
-        fs.readFile("index.html", (err,content)=>{
+        fs.readFile("./index.html", (err,content)=>{
             if(err){
                 res.writeHead(404 ,{"Content-Type": `text/html`});
                 res.end("Error 404 Page not found!");
@@ -20,7 +20,6 @@ http.createServer(function (req, res)
             res.write(content);
             res.end();
         })
-        
     }
     else{
         let extnamee = path.extname(name);
@@ -35,7 +34,7 @@ http.createServer(function (req, res)
             }
             else{
                 if (pathextname!==null) {
-                    res.writeHead(200,{"Content-Type":`test/${pathextname}`})
+                    res.writeHead(200,{"Content-Type":`text/${pathextname}`})
                 }
                 else
                 {
