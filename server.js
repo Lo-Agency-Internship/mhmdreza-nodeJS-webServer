@@ -23,6 +23,8 @@ http.createServer(function (req, res)
         
     }
     else{
+
+        // .js    -- > 
         let extnamee = path.extname(name);
         let pathextname=extnamee.slice(1,extnamee.length);
         console.log("extnamee :"+extnamee);
@@ -35,7 +37,7 @@ http.createServer(function (req, res)
             }
             else{
                 if (pathextname!==null) {
-                    res.writeHead(200,{"Content-Type":`text/${pathextname}`})
+                    res.writeHead(200,{"Content-Type":`test/${pathextname}`})
                 }
                 else
                 {
@@ -48,9 +50,4 @@ http.createServer(function (req, res)
             }
         })
     }
-
-
-
-
-
 }).listen(8080)
