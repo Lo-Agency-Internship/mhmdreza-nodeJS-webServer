@@ -1,0 +1,8 @@
+# ignore these files
+*
+
+# Not ignoring
+!.gitignore
+!server.js
+!README.md
+!package.json
