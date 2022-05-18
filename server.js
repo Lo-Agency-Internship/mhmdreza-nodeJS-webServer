@@ -23,8 +23,6 @@ http.createServer(function (req, res)
         
     }
     else{
-
-        // .js    -- > 
         let extnamee = path.extname(name);
         let pathextname=extnamee.slice(1,extnamee.length);
         console.log("extnamee :"+extnamee);
